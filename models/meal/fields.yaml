@@ -1,0 +1,51 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: Názov jedla
+        type: text
+        span: left
+    netto:
+        label: Netto
+        type: number
+        span: right
+    price:
+        label: Cena
+        type: number
+        span: left
+    netto_type:
+        label: Merná jednotka
+        type: dropdown
+        default: g
+        options:
+            g: g
+            ks: ks
+            ml: ml
+            dcl: dcl
+            l: l
+        span: right
+    is_enabled:
+        label: Aktivovaný?
+        comment: Produkt je viditelný v zoznamoch na webe
+        type: switch
+        default: true
+        span: left
+
+    description:
+        label: Krátky popis
+        type: textarea
+        size: small
+
+tabs:
+    fields:
+        # obrázky
+        images:
+            tab: Obrázky
+            type: Backend\FormWidgets\FileUpload
+            mode: image
+            label: Obrázky
+            commentAbove: Prvý obrázok zo zoznamu bude vybraný ako hlavný.
+            imageHeight: 120
+            imageWidth: 120

@@ -1,0 +1,11 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        width: 4%
+    day:
+        label: Dátum
+        type: relation

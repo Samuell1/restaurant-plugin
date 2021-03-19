@@ -1,0 +1,25 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    thumb_column:
+        label: Thumb
+        type: partial
+        width: 1%
+        sortable: false
+        path: ~/plugins/samuell/restaurant/controllers/meal/_thumb_column.htm
+    name:
+        label: Názov jedla
+        sortable: true
+        searchable: true
+    netto:
+        label: Netto
+        sortable: true
+    netto_type:
+        label: Merná jednotka
+        sortable: true
+    price:
+        label: Cena
+        sortable: true
+        searchable: true

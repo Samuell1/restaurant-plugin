@@ -1,0 +1,13 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+meals:
+    label: Jedlá
+    view:
+        list: $/samuell/restaurant/models/meal/columns.yaml
+        toolbarButtons: add|create|delete
+        showSearch: true
+    manage:
+        form: $/samuell/restaurant/models/meal/fields.yaml
+        recordsPerPage: 10

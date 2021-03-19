@@ -1,0 +1,15 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: Názov (kategórie/jedálneho lístka)
+        type: text
+    color:
+        label: Farba
+        type: text
+    meals:
+        tab: Jedlá
+        type: partial
+        path: ~/plugins/samuell/restaurant/controllers/offers/_meals.htm

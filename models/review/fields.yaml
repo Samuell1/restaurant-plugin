@@ -1,0 +1,31 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        span: left
+        label: Meno
+    is_active:
+        span: right
+        label: Povolené zobraziť
+        type: switch
+        comment: Zobraziť alebo skryt recenziu na stránke
+    # rate:
+    #     label: Počet hviezdičiek
+    #     type: dropdown
+    #     options:
+    #       1: 1
+    #       2: 2
+    #       3: 3
+    #       4: 4
+    #       5: 5
+    review:
+        label: Hodnotenie
+        type: textarea
+    avatar:
+        label: Avatar
+        type: fileupload
+        mode: image
+        imageHeight: 80
+        imageWidth: 80

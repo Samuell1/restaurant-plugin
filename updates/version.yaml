@@ -1,0 +1,7 @@
+1.0.1:
+  - First version of Restaurant
+  - create_menus_table.php
+  - create_offers_table.php
+  - create_reviews_table.php
+  - create_meals_table.php
+  - create_offers_meals_table.php

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Offer
+
+# Model Form Field configuration
+form: $/samuell/restaurant/models/offer/fields.yaml
+
+# Model Class name
+modelClass: Samuell\Restaurant\Models\Offer
+
+# Default redirect location
+defaultRedirect: samuell/restaurant/offers
+
+# Create page
+create:
+    title: Vytvoriť Offer
+    redirect: samuell/restaurant/offers/update/:id
+    redirectClose: samuell/restaurant/offers
+
+# Update page
+update:
+    title: Upraviť Offer
+    redirect: samuell/restaurant/offers
+    redirectClose: samuell/restaurant/offers
+
+# Preview page
+preview:
+    title: Preview Offer

@@ -1,0 +1,15 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    name:
+        label: Meno
+        searchable: true
+    # rate:
+    #     label: Počet hviezdičiek
+    active:
+        type: relation
+        label: Povolené zobrazovať
+    created_at:
+        label: Dátum

@@ -1,0 +1,12 @@
+# ===================================
+#  Reorder Behavior Config
+# ===================================
+
+# Reorder Title
+title: Reorder offers
+
+# Attribute name
+nameFrom: category
+
+# Model Class name
+modelClass: Samuell\Restaurant\Models\Offer

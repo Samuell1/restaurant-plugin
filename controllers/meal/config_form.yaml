@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Meal
+
+# Model Form Field configuration
+form: $/samuell/restaurant/models/meal/fields.yaml
+
+# Model Class name
+modelClass: Samuell\Restaurant\Models\Meal
+
+# Default redirect location
+defaultRedirect: samuell/restaurant/meal
+
+# Create page
+create:
+    title: Create Meal
+    redirect: samuell/restaurant/meal/update/:id
+    redirectClose: samuell/restaurant/meal
+
+# Update page
+update:
+    title: Edit Meal
+    redirect: samuell/restaurant/meal
+    redirectClose: samuell/restaurant/meal
+
+# Preview page
+preview:
+    title: Preview Meal

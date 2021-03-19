@@ -1,0 +1,43 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    date:
+        label: Dátum menu
+        type: datepicker
+        span: left
+    soup:
+        label: Polievka
+        span: right
+    menu_show:
+        label: Jedlá
+        type: section
+
+    menu:
+        type: repeater
+        form:
+            fields:
+                name:
+                    label: Názov jedla
+                    type: text
+                    span: left
+                netto:
+                    label: Netto
+                    type: number
+                    span: right
+                price:
+                    label: Cena
+                    type: number
+                    span: left
+                netto_type:
+                    label: Merná jednotka
+                    type: dropdown
+                    default: g
+                    options:
+                      g: g
+                      ks: ks
+                      ml: ml
+                      dcl: dcl
+                      l: l
+                    span: right

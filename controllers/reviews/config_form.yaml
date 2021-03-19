@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Review
+
+# Model Form Field configuration
+form: $/samuell/restaurant/models/review/fields.yaml
+
+# Model Class name
+modelClass: Samuell\Restaurant\Models\Review
+
+# Default redirect location
+defaultRedirect: samuell/restaurant/reviews
+
+# Create page
+create:
+    title: Vytvoriť Review
+    redirect: samuell/restaurant/reviews/update/:id
+    redirectClose: samuell/restaurant/reviews
+
+# Update page
+update:
+    title: Upraviť Review
+    redirect: samuell/restaurant/reviews
+    redirectClose: samuell/restaurant/reviews
+
+# Preview page
+preview:
+    title: Preview Review

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Menu
+
+# Model Form Field configuration
+form: $/samuell/restaurant/models/menu/fields.yaml
+
+# Model Class name
+modelClass: Samuell\Restaurant\Models\Menu
+
+# Default redirect location
+defaultRedirect: samuell/restaurant/menu
+
+# Create page
+create:
+    title: Vytvoriť Menu
+    redirect: samuell/restaurant/menu/update/:id
+    redirectClose: samuell/restaurant/menu
+
+# Update page
+update:
+    title: Upraviť Menu
+    redirect: samuell/restaurant/menu
+    redirectClose: samuell/restaurant/menu
+
+# Preview page
+preview:
+    title: Preview Menu
