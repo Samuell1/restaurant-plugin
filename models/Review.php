@@ -37,10 +37,4 @@ class Review extends Model
       'avatar' => 'System\Models\File'
     ];
     public $attachMany = [];
-
-    public function getActiveAttribute()
-    {
-      return ($this->is_active ? "Áno":"Nie");
-    }
-
 }
