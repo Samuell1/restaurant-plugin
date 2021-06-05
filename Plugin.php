@@ -80,12 +80,12 @@ class Plugin extends PluginBase
                 'permissions' => ['samuell.restaurant.*'],
                 'order'       => 500,
                 'sideMenu' => [
-                    // 'menu' => [
-                    //     'label'       => 'Denné menu',
-                    //     'icon'        => 'icon-cutlery',
-                    //     'url'         => Backend::url('samuell/restaurant/menu'),
-                    //     'permissions' => ['samuell.restaurant.menu']
-                    // ],
+                    'menu' => [
+                        'label'       => 'Denné menu',
+                        'icon'        => 'icon-cutlery',
+                        'url'         => Backend::url('samuell/restaurant/menu'),
+                        'permissions' => ['samuell.restaurant.menu']
+                    ],
                     'offers' => [
                         'label'       => 'Jedálny lístok',
                         'icon'        => 'icon-database',
