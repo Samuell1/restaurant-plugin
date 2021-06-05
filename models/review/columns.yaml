@@ -8,8 +8,9 @@ columns:
         searchable: true
     # rate:
     #     label: Počet hviezdičiek
-    active:
+    is_active:
         type: relation
         label: Povolené zobrazovať
+        type: switch
     created_at:
         label: Dátum
