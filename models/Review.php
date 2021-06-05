@@ -33,8 +33,6 @@ class Review extends Model
     public $morphTo = [];
     public $morphOne = [];
     public $morphMany = [];
-    public $attachOne = [
-      'avatar' => 'System\Models\File'
-    ];
+    public $attachOne = [];
     public $attachMany = [];
 }
